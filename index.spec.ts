@@ -1,4 +1,4 @@
-const SchemaBuilder = require("formulate-schema");
+import SchemaBuilder from "formulate-schema";
 
 let schema: any;
 beforeEach(() => {
