@@ -1,4 +1,4 @@
-import SchemaBuilder from "formulate-schema";
+import SchemaBuilder from "schemacrafterjs";
 
 const schema = new SchemaBuilder();
 
