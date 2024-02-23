@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose",
+    "mock-build": "cd node_modules/schemacrafterjs/scripts && node generate-folder-script.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,6 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "schemacrafterjs": "^1.0.0"
+    "schemacrafterjs": "^1.9.1"
   }
 }
